@@ -1,0 +1,23 @@
+{
+  "name": "y-u-no-unit-test",
+  "version": "1.0.0",
+  "description": "Prevents you from violating unit test principles",
+  "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "testing",
+    "test",
+    "unit testing"
+  ],
+  "author": "Christoph Neuroth <christoph.neuroth@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.13.0"
+  }
+}
