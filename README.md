@@ -31,7 +31,7 @@ Test A failed with Exception:
 
 Test B failed with Exception:
 
-  Tried to calls `fs.readFile` with arguments: '~/.global_state'
+  Tried to calls `fs.writeFile` with arguments: '~/.global_state'
 
 $ npm test -- --enfore-unit-test
 Test A failed with Exception:
@@ -40,7 +40,7 @@ Test A failed with Exception:
 
 Test B failed with Exception:
 
-  Tried to calls `fs.readFile` with arguments: '~/.global_state'
+  Tried to calls `fs.writeFile` with arguments: '~/.global_state'
 ```
 
 Rationale
