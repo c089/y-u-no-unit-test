@@ -1,6 +1,48 @@
 Y U NO UNIT TEST?!?!
 ====================
 
+Usage
+-----
+
+Violating unit testing principles can lead to situations like this:
+
+```
+$ npm test
+All tests passed
+
+$ npm test
+Test A failed (some surprising failure here)
+
+$ npm test
+All tests passed
+
+$ npm test
+Test B failed (some surprising failure here)
+```
+
+What I would envision to be possible with this module would be something closer
+to this:
+
+```
+$ npm test -- --enfore-unit-test
+Test A failed with Exception:
+
+  Tried to calls `fs.readFile` with arguments: '~/.global_state'
+
+Test B failed with Exception:
+
+  Tried to calls `fs.readFile` with arguments: '~/.global_state'
+
+$ npm test -- --enfore-unit-test
+Test A failed with Exception:
+
+  Tried to calls `fs.readFile` with arguments: '~/.global_state'
+
+Test B failed with Exception:
+
+  Tried to calls `fs.readFile` with arguments: '~/.global_state'
+```
+
 Rationale
 ---------
 
