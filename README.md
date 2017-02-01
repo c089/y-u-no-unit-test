@@ -1,6 +1,8 @@
 Y U NO UNIT TEST?!?!
 ====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/c089/y-u-no-unit-test.svg)](https://greenkeeper.io/)
+
 Usage
 -----
 
