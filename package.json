@@ -18,6 +18,6 @@
   "author": "Christoph Neuroth <christoph.neuroth@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.13.0"
+    "ava": "^0.17.0"
   }
 }
